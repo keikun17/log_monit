@@ -1,0 +1,25 @@
+.agency-name{
+	color:green;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.document-name{
+	font-size:15px;
+	font-weight:bold;	
+}
+
+.importer-name{
+	font-size:15px;
+	font-weight:bold;	
+}
+
+.user-name{
+	font-size:15px;
+	font-weight:bold;	
+}
+
+.transaction-creation-date{
+	font-size:14px;
+	font-weight:normal;
+}

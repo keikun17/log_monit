@@ -1,0 +1,1787 @@
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:20:43) [GET]
+Rendering transaction_log/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 12:20:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/logtail.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:23:54) [GET]
+Rendering transaction_log/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 12:23:54) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/logtail.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:24:17) [GET]
+Rendering transaction_log/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:24:19) [GET]
+Rendering transaction_log/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:24:55) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:33:58) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:34:00) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:35:14) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:35:21) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:36:26) [GET]
+Rendering transaction_log/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:37:17) [GET]
+Rendering transaction_log/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:37:30) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:54:00) [GET]
+
+NameError (uninitialized constant TransactionLogController::LOGFILE_PATH):
+  app/controllers/transaction_log_controller.rb:8:in `append_test_log_file'
+
+Rendered rescues/_trace (113.4ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:54:55) [GET]
+
+Errno::EACCES (Permission denied - /test.log):
+  app/controllers/transaction_log_controller.rb:23:in `initialize'
+  app/controllers/transaction_log_controller.rb:23:in `open'
+  app/controllers/transaction_log_controller.rb:23:in `append_test_log_file'
+
+Rendered rescues/_trace (56.1ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:55:19) [GET]
+
+Errno::EACCES (Permission denied - /test.log):
+  app/controllers/transaction_log_controller.rb:23:in `initialize'
+  app/controllers/transaction_log_controller.rb:23:in `open'
+  app/controllers/transaction_log_controller.rb:23:in `append_test_log_file'
+
+Rendered rescues/_trace (121.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:55:55) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:25:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:58:00) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:25:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 12:58:56) [GET]
+Rendering transaction_log/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:10) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:13) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:16) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:18) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:19) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:21) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:22) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:24) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 12:59:35) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:24:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:02:22) [GET]
+Rendering transaction_log/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 13:02:27) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:25:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:02:49) [GET]
+Rendering transaction_log/index
+
+ActionView::TemplateError (undefined method `stylesheets_include_tag' for #<ActionView::Base:0x1032a4e10>) on line #5 of app/views/transaction_log/index.html.erb:
+2:   <head>
+3:     <script type="text/javascript" src="javascripts/ajax.js"> </script>
+4:     <script type="text/javascript" src="javascripts/ajax-logtail.js"> </script>
+5:     <%= stylesheets_include_tag "styles.css" %>
+6:   </head>
+7:   <body>
+8:     <button onclick="getLog('start');">Start Log</button>
+
+    app/views/transaction_log/index.html.erb:5
+
+Rendered rescues/_trace (62.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:02:55) [GET]
+Rendering transaction_log/index
+
+ActionView::TemplateError (undefined method `stylesheet_include_tag' for #<ActionView::Base:0x103228b80>) on line #5 of app/views/transaction_log/index.html.erb:
+2:   <head>
+3:     <script type="text/javascript" src="javascripts/ajax.js"> </script>
+4:     <script type="text/javascript" src="javascripts/ajax-logtail.js"> </script>
+5:     <%= stylesheet_include_tag "styles.css" %>
+6:   </head>
+7:   <body>
+8:     <button onclick="getLog('start');">Start Log</button>
+
+    app/views/transaction_log/index.html.erb:5
+
+Rendered rescues/_trace (159.2ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:03:39) [GET]
+Rendering transaction_log/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 13:03:54) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:25:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 13:03:58) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:25:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 13:11:00) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:29:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 13:11:10) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:29:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 13:11:22) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:28:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:46:50) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 13:52:59) [GET]
+
+ActionController::RoutingError (No route matches "/read_test_log" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 13:53:10) [GET]
+
+ActionController::RoutingError (No route matches "/transactions_log_controller.rb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 13:53:24) [GET]
+
+ActionController::RoutingError (No route matches "/transactions_log/read_test_log" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 13:53:36) [GET]
+
+ActionController::RoutingError (No route matches "/transactions_log/read_test_log" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 13:53:40) [GET]
+
+ActionController::RoutingError (No route matches "/transactions_logs/read_test_log" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 13:53:48) [GET]
+
+ActionController::RoutingError (No route matches "/transactions_log" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 13:53:49) [GET]
+
+ActionController::RoutingError (No route matches "/transactions_logs" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:53:52) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:54:05) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 13:54:08) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:28:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 13:54:12) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 13:54:29) [GET]
+
+NameError (uninitialized constant File::Tail):
+  app/controllers/transaction_log_controller.rb:34:in `read_test_log'
+  app/controllers/transaction_log_controller.rb:33:in `open'
+  app/controllers/transaction_log_controller.rb:33:in `read_test_log'
+
+Rendered rescues/_trace (51.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 13:54:52) [GET]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:06:37) [GET]
+Rendering transaction_log/read_test_log
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:06:42) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:06:49) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 14:07:27) [GET]
+Rendering transaction_log/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:29) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:30) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:31) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:32) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:33) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:34) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:34) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:36) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 14:07:39) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:28:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:40) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:45) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-11 14:07:47) [GET]
+
+ActionController::RoutingError (No route matches "/transaction_logs/read_test_log" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:50) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:53) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:53) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:55) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:55) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:07:55) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:08:30) [GET]
+Rendering transaction_log/read_test_log
+Completed in 41156ms (View: 7, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#append_test_log_file (for 127.0.0.1 at 2011-07-11 14:09:17) [GET]
+
+ActionView::MissingTemplate (Missing template transaction_log/none.erb in view path app/views):
+  app/controllers/transaction_log_controller.rb:28:in `append_test_log_file'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:18) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 14:09:21) [GET]
+Rendering transaction_log/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:23) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:24) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:25) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:26) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:27) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:28) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:29) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:30) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:31) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:32) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:33) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:34) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:35) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:36) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:37) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:38) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:39) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:40) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:41) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:42) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 14:09:42) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:44) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:45) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:46) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:47) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:48) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:49) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 14:09:50) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:51) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:52) [GET]
+Rendering transaction_log/read_test_log
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:53) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:55) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 14:09:56) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:09:59) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:00) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:01) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:02) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:03) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:04) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#index (for 127.0.0.1 at 2011-07-11 14:10:05) [GET]
+Rendering transaction_log/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:06) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:07) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:08) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:09) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:10) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:11) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:12) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:13) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:14) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:15) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:16) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:17) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:18) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:19) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:20) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:21) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:22) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:23) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:24) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:25) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:26) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:27) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:28) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:29) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:30) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:31) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:32) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:33) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:34) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:35) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:36) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:37) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:38) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:39) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:40) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:41) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:42) [GET]
+Rendering transaction_log/read_test_log
+Completed in 66ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:43) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:44) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:45) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:46) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:47) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:48) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:49) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:50) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:51) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:52) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:53) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:55) [GET]
+Rendering transaction_log/read_test_log
+Completed in 65ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:56) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:57) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:58) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:10:59) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:00) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:01) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:02) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:03) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:04) [GET]
+Rendering transaction_log/read_test_log
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:05) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:06) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:07) [GET]
+Rendering transaction_log/read_test_log
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:08) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:09) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:10) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:11) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:12) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:13) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:14) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:15) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:16) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:17) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:18) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:19) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:20) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:21) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:22) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:23) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:24) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:25) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:26) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:27) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:28) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:29) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:30) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:31) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:32) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:33) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:34) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:35) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:36) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:37) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:38) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:39) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:40) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:41) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:42) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:43) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:44) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:45) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:46) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:47) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:48) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:49) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:50) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:51) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:52) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:53) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:55) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:56) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:57) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:58) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:11:59) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:00) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:01) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:02) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:03) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:04) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:05) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:06) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:07) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:08) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:09) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:10) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:11) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:12) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:13) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:14) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:15) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:16) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:17) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:18) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:19) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:20) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:21) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:22) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:23) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:24) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:25) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:26) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:27) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:28) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:29) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:30) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:31) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:32) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:33) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:34) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:35) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:36) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:37) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:38) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:39) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:40) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:41) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:42) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:43) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:44) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:45) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:46) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:47) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:48) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:49) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:50) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:51) [GET]
+Rendering transaction_log/read_test_log
+Completed in 77ms (View: 71, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:52) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:53) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:54) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:55) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:56) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:57) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:58) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:12:59) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:00) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:01) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:02) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:03) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:04) [GET]
+Rendering transaction_log/read_test_log
+Completed in 64ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:05) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:06) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:07) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:08) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:09) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:10) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:11) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:12) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:13) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:14) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:15) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:16) [GET]
+Rendering transaction_log/read_test_log
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:17) [GET]
+Rendering transaction_log/read_test_log
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:18) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:19) [GET]
+Rendering transaction_log/read_test_log
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:20) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:21) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:22) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:23) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:24) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:25) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:26) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:27) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
+
+
+Processing TransactionLogController#read_test_log (for 127.0.0.1 at 2011-07-11 14:13:28) [GET]
+Rendering transaction_log/read_test_log
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/transaction_log/read_test_log]
