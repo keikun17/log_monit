@@ -42,7 +42,7 @@ eval(currentLogValue);
 logDiv = document.getElementById("log");
 var logLine = ' ';
 for (i=0; i < currentLogValue.length - 1; i++) {
-logLine += currentLogValue[i] + "<br/>\n";
+logLine += currentLogValue[i] + "\n";
 }
 logDiv.innerHTML=logLine;
 } else
