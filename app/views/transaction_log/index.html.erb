@@ -4,14 +4,24 @@
     <script type="text/javascript" src="javascripts/ajax-logtail.js"> </script>
     <%= stylesheet_link_tag "styles" %>
   </head>
-  <body>
-    <button onclick="getLog('start');">Start Log</button>
-    <button onclick="stopTail();">Stop Log</button>
-    <div id="log" style="border:solid 1px #dddddd; margin-left:25px; font-size:9px;
-    padding-left:5px; padding-right:10px; padding-top:10px; padding-bottom:20px;
-    margin-top:10px; margin-bottom:10px; width:90%; text-align:left;">
-      This is the Log Viewer. To begin viewing the log live in this window, click Start Viewer. To stop the window refreshes, click Pause Viewer.
-    </div>
+
+  <body onload="getLog('start');" style="background:transparent url(images/bg_main.png) repeat top left">
+    <div id="header">
+      <span id="page-title">National Single Window</span>
+      <span id="page-subtitle">Incoming Transactions</span>
+    </div>      
+    <table style="margin-top:10px;border:solid 1px #dddddd; font-size:20px; width:100%; text-align:left; font-family:Arial, Helvetica">
+    <tr>
+      <th style="width:20%;background-color:white">Agency Name</td>
+      <th style="width:20%;background-color:white">Document Name</td>
+      <th style="width:20%;background-color:white">Importer Name</td>
+      <th style="width:20%;background-color:white">User Name</td>                
+      <th style="width:20%;background-color:white">TXN Date</td>        
+    </tr>
+    </table>
+
+    <table id="log">
+    </table>
   <p></p>
   </body>
 </html>

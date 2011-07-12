@@ -1,25 +1,69 @@
 .agency-name{
-	color:green;
+	border:solid 1px lightgray;
+	color:black;
 	font-size:15px;
-	font-weight:bold;
+	width:20%;
 }
 
 .document-name{
 	font-size:15px;
-	font-weight:bold;	
+	border:solid 1px lightgray;
+	width:20%;	
 }
 
 .importer-name{
 	font-size:15px;
-	font-weight:bold;	
+	border:solid 1px lightgray;
+	width:20%;	
 }
 
-.user-name{
+.importer-name{
+	border:solid 1px lightgray;
 	font-size:15px;
-	font-weight:bold;	
+	width:20%;	
 }
 
 .transaction-creation-date{
+	border:solid 1px lightgray;
 	font-size:14px;
-	font-weight:normal;
+	width:20%;	
+}
+
+.transaction-entry{
+	border:1px solid black;
+}
+
+.pause-message{
+	font-color:red;
+	font-size:12px;
+}
+
+#header{
+	background-color:black;
+	color:yellow;
+	padding:10px 0px 10px 5px
+}
+
+#page-title{
+	color:yellow;
+	font-family:Arial, Helvetica;
+}
+
+#page-subtitle{
+	font-family:Arial, Helvetica;
+	color:white;
+}
+
+#log{
+	border:solid 1px black;
+	font-size:9px;
+	font-family:Arial, Helvetica;
+  padding-left:5px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:20px;
+	margin-bottom:10px;
+	width:100%;
+	text-align:left;
+	background-color:white;
 }
