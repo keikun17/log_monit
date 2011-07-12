@@ -8,7 +8,7 @@ class TransactionLogController < ApplicationController
   
   def read_test_log
     path_to_file = LOGFILE_PATH
-    @file_contents = IO.readlines(path_to_file)[-20..-1]
+    @file_contents = IO.readlines(path_to_file)[-15..-1]
   end
 
   protected
